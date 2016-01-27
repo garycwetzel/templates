@@ -349,6 +349,134 @@
                           </td>
                         </tr>
                         <tr>
+                        <tr>
+                          <td>
+                            <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+                            <tr>
+                              <td align="center" style="padding:20px 0;">
+                                <center>
+                                  <table cellspacing="0" cellpadding="0" class="card">
+                                    <tr>
+                                      <td style="background-color:green; text-align:center; padding:10px; color:white; ">
+                                      Summary of Plans and Charges
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td style="border:1px solid green;">
+                                        <table cellspacing="0" cellpadding="20" width="100%">
+                                          <tr>
+                                            <td>
+                                              <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff">
+                                                <tr>
+                                                  <td width="200" class="data-heading">
+                                                    Payment Period:
+                                                  </td>
+                                                  <td class="data-value">
+                                                    {{ data.period }}
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td width="200" class="data-heading">
+                                                    Subcription Level:
+                                                  </td>
+                                                  <td class="data-value">
+                                                    {{ data.subscription }}
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td width="200" class="data-heading">
+                                                    No. of Projects:
+                                                  </td>
+                                                  <td class="data-value">
+                                                    {{ data.numberofProjects }}
+                                                  </td>
+                                                </tr>
+                                                 <tr>
+                                                  <td width="200" class="data-heading">
+                                                    Project Charges:
+                                                  </td>
+                                                  <td class="data-value">
+                                                    ${{ data.projectCharges }}
+                                                  </td>
+                                                </tr>
+                                               <tr>
+                                                  <td width="200" class="data-heading">
+                                                    No. of Instances:
+                                                  </td>
+                                                  <td class="data-value">
+                                                    {{ data.numberofInstances }}
+                                                  </td>
+                                                </tr>
+                                                 <tr>
+                                                  <td width="200" class="data-heading">
+                                                    Deployment Charges:
+                                                  </td>
+                                                  <td class="data-value">
+                                                    ${{ data.deploymentCharges }}
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td width="200" class="data-heading">
+                                                    Total Charges:
+                                                  </td>
+                                                  <td class="data-value">
+                                                   ${{ data.totalCharges }}
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td width="200" class="data-heading">
+                                                    Cardholder Name:
+                                                  </td>
+                                                  <td class="data-value">
+                                                   {{ data.cardHolderName }}
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td width="200" class="data-heading">
+                                                    Charged to:
+                                                  </td>
+                                                  <td class="data-value">
+                                                   {{ data.chargedtoCard }}
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td width="200" class="data-heading">
+                                                    Transaction Date:
+                                                  </td>
+                                                  <td class="data-value">
+                                                   {{ data.transactionDate }}
+                                                  </td>
+                                                </tr>
+                                               <tr>
+                                                  <td width="200" class="data-heading">
+                                                    Transaction ID:
+                                                  </td>
+                                                  <td class="data-value">
+                                                   {{ data.transactionID }}
+                                                  </td>
+                                                </tr>
+                                               <tr>
+                                                  <td width="200" class="data-heading">
+                                                    Receipt #:
+                                                  </td>
+                                                  <td class="data-value">
+                                                   {{ data.paymentReceiptNumber }}
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </center>
+                              </td>
+                            </tr>
+                          </table>
+                          </td>
+                        </tr>
+                        <tr>
                           <td style="padding-top:20px;background-color:#ffffff;">
                             Please let us know if you have any questions!<br>
                             And as always, don't forget to give us your feedback! <br><br>
