@@ -214,9 +214,11 @@
                       <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff">
                         <tr>
                           <td valign="top" style="padding-bottom:20px; background-color:#ffffff;">
-                            Hi {{ data.username }},<br><br>
-                            Thank you for your business!<br>
-                            Below is a summmary of your charges for the month.<br>
+                            13770 Noel Rd.
+                            #801872
+                            Dallas, TX 75380
+                            Phone: (214) 236-8899
+                            Prepared by: Gary Wetzel
                           </td>
                         </tr>
                         <tr>
